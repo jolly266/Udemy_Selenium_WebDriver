@@ -1,0 +1,10 @@
+package browser_Options;
+
+public class Handlying_BrokenLinks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

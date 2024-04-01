@@ -1,0 +1,26 @@
+package actionsClass;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Iframes {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://the-internet.herokuapp.com/iframe");
+		driver.findElement(By.xpath("(//div[@role='toolbar'])[3]//button[1]")).click();
+		
+		
+		driver.switchTo().frame(driver.findElement(By.cssSelector(".tox-edit-area__iframe")));
+		
+		WebElement editbox = driver.findElement(By.cssSelector(".mce-content-body "));
+		//editbox.clear();
+		editbox.sendKeys("i am a boy");
+
+	}
+
+}

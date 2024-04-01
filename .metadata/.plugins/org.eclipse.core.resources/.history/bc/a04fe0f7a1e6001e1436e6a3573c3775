@@ -1,0 +1,10 @@
+package actionsClass;
+
+public class Move_To_Elements_And_Grab_Text {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
