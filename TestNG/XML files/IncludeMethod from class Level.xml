@@ -1,0 +1,43 @@
+<suite name='Loan Department'>
+	<test name='confing1 Test'>
+		<classes>
+
+			<class name='config1.Day1'>
+				<methods>
+					<include name='webhomeloan' />
+				</methods>
+			</class>
+			
+			<class name='config1.Day2'>
+				<methods>
+					<include name='webcarloan' />
+				</methods>
+			</class>
+			
+			<class name='config1.Day3' >
+			<methods>
+			<include name ='webbusinessloan' />
+			</methods>
+			</class>
+
+		</classes>
+	</test>
+
+	<test name='config2 Test'>
+		<classes>
+
+			<class name='config2.Day4'>
+			<methods>
+			<include name ='webbikeloan' />
+			</methods>
+			</class>
+			
+			<class name='config2.Day5'>
+			<methods>
+			<include name ='webgoldloan' />
+			</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>

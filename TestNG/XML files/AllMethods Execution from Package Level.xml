@@ -1,0 +1,21 @@
+<suite name='Loan Department'>
+	<test name='Personal Loan'>
+		<packages>
+			<package name='config1'/>
+			
+			<classes>
+			<class name= 'config1.Day1'>
+			<methods>
+			<exclude name ='webhomeloan'/>
+			</methods>
+			</class>
+			</classes>
+			
+			<package name='config2'/>
+			
+			
+		</packages>
+	</test>
+	
+</suite>
+

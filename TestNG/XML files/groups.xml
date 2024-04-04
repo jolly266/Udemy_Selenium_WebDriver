@@ -1,0 +1,25 @@
+<suite name='Loan Department'>
+	<test name='Smoke Test'>
+		<groups>
+			<run>
+				<include name='Smoke' />
+			</run>
+		</groups>
+
+		<packages>
+			<classes>
+				<class name='config1.Day1'>
+					<methods>
+						<exclude name='web.*' />
+					</methods>
+				</class>
+				
+				<class name='config1.Day2' />
+				<class name='config1.Day3' />
+				<class name='config2.Day4' />
+				<class name='config2.Day5' />
+			</classes>
+		</packages>
+
+	</test>
+</suite>
