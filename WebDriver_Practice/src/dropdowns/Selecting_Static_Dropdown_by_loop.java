@@ -29,6 +29,10 @@ public class Selecting_Static_Dropdown_by_loop {
 		System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
 		driver.quit();
 
+		
+		
+		
+		
 	}
 
 }

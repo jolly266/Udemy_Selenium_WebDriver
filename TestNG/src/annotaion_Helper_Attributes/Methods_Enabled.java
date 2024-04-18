@@ -2,22 +2,22 @@ package annotaion_Helper_Attributes;
 
 import org.testng.annotations.Test;
 
-public class timeout {
-
+public class Methods_Enabled {
+	
+	
 	@Test
 	public void webcarloan() {
 
 		System.out.println("Web Car Loan");
 	}
 
-	//(enabled=false)
-	@Test(timeOut = 4000,description = "Mobile,Mobile,Mobile",invocationCount = 5)
+	@Test
 	public void mobilecarloan() {
 
 		System.out.println("Mobile Car Loan");
 	}
 
-	@Test 
+	@Test (dependsOnMethods = {"webcarloan","mobilecarloan"},enabled=true)
 	public void apicarloan() {
 
 		System.out.println("API Car Loan");

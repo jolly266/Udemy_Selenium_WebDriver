@@ -2,6 +2,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<test name="Test 1">
+<!-- this is comment line --> 
+<!-- this is another comment line -->
 
 		<parameter name="URL"
 			value="Cheaking weather perameter Annotaion working or Not for Test Folder 1" />
@@ -17,5 +19,5 @@
 
 			<class name="parameterization.Parameters2" />
 		</classes>
-</test>
+	</test>
 </suite> 

@@ -36,5 +36,7 @@ public class WindowHandles_Loop {
 		driver.switchTo().window(winid.get(i));
 		System.out.println(driver.getTitle()); 
 		}
+		
+	
 	}
 }

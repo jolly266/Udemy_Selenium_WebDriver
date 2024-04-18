@@ -1,55 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-04T22:14:17 IST" name="Suite" finished-at="2024-04-04T22:14:17 IST" duration-ms="255">
+  <suite started-at="2024-04-05T19:52:06 IST" name="Default suite" finished-at="2024-04-05T19:52:06 IST" duration-ms="89">
     <groups>
     </groups>
-    <test started-at="2024-04-04T22:14:17 IST" name="Test 1" finished-at="2024-04-04T22:14:17 IST" duration-ms="105">
-      <class name="parameterization.Parameters1">
-        <test-method signature="apicarloan()[pri:0, instance:parameterization.Parameters1@4dbb42b7]" started-at="2024-04-04T22:14:17 IST" name="apicarloan" finished-at="2024-04-04T22:14:17 IST" duration-ms="16" status="PASS">
+    <test started-at="2024-04-05T19:52:06 IST" name="Default test" finished-at="2024-04-05T19:52:06 IST" duration-ms="89">
+      <class name="listeners_Practice.Day1_Code">
+        <test-method signature="skipped()[pri:0, instance:listeners_Practice.Day1_Code@31fa1761]" started-at="2024-04-05T19:52:06 IST" name="skipped" finished-at="2024-04-05T19:52:06 IST" duration-ms="11" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[This Test is Skiped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: This Test is Skiped
+at listeners_Practice.Day1_Code.skipped(Day1_Code.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- apicarloan -->
-        <test-method signature="mobilecarloan(java.lang.String)[pri:0, instance:parameterization.Parameters1@4dbb42b7]" started-at="2024-04-04T22:14:17 IST" name="mobilecarloan" finished-at="2024-04-04T22:14:17 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Cheaking weather perameter Annotaion working or Not for Test Folder 1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- skipped -->
+        <test-method signature="testfailure()[pri:0, instance:listeners_Practice.Day1_Code@31fa1761]" started-at="2024-04-05T19:52:06 IST" name="testfailure" finished-at="2024-04-05T19:52:06 IST" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at listeners_Practice.Day1_Code.testfailure(Day1_Code.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mobilecarloan -->
-        <test-method signature="webcarloan()[pri:0, instance:parameterization.Parameters1@4dbb42b7]" started-at="2024-04-04T22:14:17 IST" name="webcarloan" finished-at="2024-04-04T22:14:17 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- testfailure -->
+        <test-method signature="testsuccess()[pri:0, instance:listeners_Practice.Day1_Code@31fa1761]" started-at="2024-04-05T19:52:06 IST" name="testsuccess" finished-at="2024-04-05T19:52:06 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webcarloan -->
-      </class> <!-- parameterization.Parameters1 -->
-    </test> <!-- Test 1 -->
-    <test started-at="2024-04-04T22:14:17 IST" name="Test 2" finished-at="2024-04-04T22:14:17 IST" duration-ms="12">
-      <class name="parameterization.Parameters2">
-        <test-method signature="apihomeloan()[pri:0, instance:parameterization.Parameters2@2a7f1f10]" started-at="2024-04-04T22:14:17 IST" name="apihomeloan" finished-at="2024-04-04T22:14:17 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- apihomeloan -->
-        <test-method signature="mobilehomeloan(java.lang.String)[pri:0, instance:parameterization.Parameters2@2a7f1f10]" started-at="2024-04-04T22:14:17 IST" name="mobilehomeloan" finished-at="2024-04-04T22:14:17 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Cheaking weather perameter Annotaion working or Not for Test Folder 2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobilehomeloan -->
-        <test-method signature="webhomeloan()[pri:0, instance:parameterization.Parameters2@2a7f1f10]" started-at="2024-04-04T22:14:17 IST" name="webhomeloan" finished-at="2024-04-04T22:14:17 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webhomeloan -->
-      </class> <!-- parameterization.Parameters2 -->
-    </test> <!-- Test 2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testsuccess -->
+      </class> <!-- listeners_Practice.Day1_Code -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

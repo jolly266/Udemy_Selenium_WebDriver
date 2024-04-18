@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Udemy\TestNG"/>
 			<item value="E:\Udemy"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,18 +46,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="Selenuim"/>
-			<item value="Selenium_Webdriver"/>
-			<item value="selenium_Practice"/>
-			<item value="Selenium"/>
+			<item value="Selenium_WebDriver"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="practice"/>
-			<item value="Practice"/>
-			<item value="practice_Work"/>
-			<item value="Udemy"/>
+			<item value="Maven_Project"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

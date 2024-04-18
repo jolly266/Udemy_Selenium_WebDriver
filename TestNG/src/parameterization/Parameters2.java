@@ -11,7 +11,7 @@ public class Parameters2 {
 		System.out.println("Web Car Loan");
 	}
 
-	@org.testng.annotations.Parameters("URL")
+	@org.testng.annotations.Parameters({"URL"})
 	@Test
 	public void mobilehomeloan(String name) {
 

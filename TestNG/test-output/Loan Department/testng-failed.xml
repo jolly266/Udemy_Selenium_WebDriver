@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Department]">
+  <test thread-count="5" name="Personal Loan(failed)">
+    <classes>
+      <class name="listeners_Practice.Day1_Code">
+        <methods>
+          <include name="skipped"/>
+          <include name="testfailure"/>
+        </methods>
+      </class> <!-- listeners_Practice.Day1_Code -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

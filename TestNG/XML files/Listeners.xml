@@ -1,0 +1,13 @@
+<suite name='Loan Department'>
+
+	<listeners>
+		<listner class-name='listeners_Practice.Listners_class' />
+	</listeners>
+	
+	<test name='Personal Loan'>
+		<classes>
+			<class name='listeners_Practice.Day1_Code' />
+
+		</classes>
+	</test>
+</suite>

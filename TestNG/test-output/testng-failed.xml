@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="config.AppUtil">
+      <class name="listeners_Practice.Day1_Code">
         <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="input"/>
+          <include name="skipped"/>
+          <include name="testfailure"/>
         </methods>
-      </class> <!-- config.AppUtil -->
+      </class> <!-- listeners_Practice.Day1_Code -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
