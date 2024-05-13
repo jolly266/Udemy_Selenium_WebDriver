@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 public class Day5 {
 
+//Check
 	@Test(groups= {"Smoke"})
 	public void webgoldloan() {
 
