@@ -34,7 +34,7 @@ public class Textbox_Capital_Letter {
 		driver.navigate().to("https://www.amazon.in/");
 		WebElement searchbox= driver.findElement(By.cssSelector("#twotabsearchtextbox"));
 		Actions ac = new Actions(driver);
-		ac.moveToElement(searchbox);
+		ac.moveToElement(searchbox).build().perform();
 		ac.click().keyDown(Keys.SHIFT).sendKeys("men t-shirt").build().perform();
 		String enter = Keys.chord(Keys.ENTER);
 		Thread.sleep(2000);

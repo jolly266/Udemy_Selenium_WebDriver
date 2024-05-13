@@ -7,6 +7,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="package extentReports;"/>
 			<item value="package locator_Practice;"/>
 			<item value="package String_Practice;"/>
 		</list>

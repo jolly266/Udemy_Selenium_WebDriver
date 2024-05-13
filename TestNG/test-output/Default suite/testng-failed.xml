@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listeners_Practice.Day1_Code">
+      <class name="extentReports.CreateReport">
         <methods>
-          <include name="skipped"/>
-          <include name="testfailure"/>
+          <include name="config"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- listeners_Practice.Day1_Code -->
+      </class> <!-- extentReports.CreateReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
