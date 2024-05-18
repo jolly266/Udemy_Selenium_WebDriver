@@ -7,6 +7,10 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="package com.Ecommerce.BaseClass;"/>
+			<item value="package PageActions;"/>
+			<item value="&#x09; &lt;dependencies&gt;"/>
+			<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;"/>
 			<item value="package extentReports;"/>
 			<item value="package locator_Practice;"/>
 			<item value="package String_Practice;"/>
@@ -15,7 +19,7 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="762"/>
+		<item key="DIALOG_X_ORIGIN" value="529"/>
 		<item key="DIALOG_Y_ORIGIN" value="217"/>
 		<item key="DIALOG_WIDTH" value="414"/>
 		<item key="DIALOG_HEIGHT" value="454"/>

@@ -1,8 +1,7 @@
 package addTo_Cart;
 
-import java.lang.reflect.Array;
+
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import org.openqa.selenium.By;
@@ -13,7 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import dev.failsafe.internal.util.Assert;
+
 
 public class Add_To_Cart {
 

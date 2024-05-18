@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Udemy\Maven_Project"/>
+			<item value="E:\Udemy\WebDriver_Practice"/>
 			<item value="E:\Udemy\TestNG"/>
 			<item value="E:\Udemy"/>
 		</list>
@@ -46,12 +48,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="Selenium_WebDriver"/>
+			<item value="MyStoreProject"/>
+			<item value="Maven"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Maven_Project"/>
+			<item value="MyStoreProject"/>
+			<item value="PageObject_Model"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -66,6 +70,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>

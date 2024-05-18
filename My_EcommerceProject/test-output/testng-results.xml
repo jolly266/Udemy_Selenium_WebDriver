@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-17T22:27:26 IST" name="Default suite" finished-at="2024-05-17T22:27:33 IST" duration-ms="6448">
+    <groups>
+    </groups>
+    <test started-at="2024-05-17T22:27:26 IST" name="Default test" finished-at="2024-05-17T22:27:33 IST" duration-ms="6448">
+      <class name="com.Ecommerce.BaseClass.BaseClass">
+        <test-method is-config="true" signature="loadconfing()[pri:0, instance:com.Ecommerce.BaseClass.BaseClass@2e8c1c9b]" started-at="2024-05-17T22:27:26 IST" name="loadconfing" finished-at="2024-05-17T22:27:26 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadconfing -->
+        <test-method signature="launchapp()[pri:0, instance:com.Ecommerce.BaseClass.BaseClass@2e8c1c9b]" started-at="2024-05-17T22:27:26 IST" name="launchapp" finished-at="2024-05-17T22:27:33 IST" duration-ms="6386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+      </class> <!-- com.Ecommerce.BaseClass.BaseClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
