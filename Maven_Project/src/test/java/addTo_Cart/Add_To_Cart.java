@@ -24,9 +24,11 @@ public class Add_To_Cart {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
 		driver.get("https://rahulshettyacademy.com/client");
+		System.out.println(driver.getTitle());
 		driver.findElement(By.id("userEmail")).sendKeys("jaykrishnagupta@gmail.com");
 		driver.findElement(By.id("userPassword")).sendKeys("Jaykrishna@1");
 		driver.findElement(By.id("login")).click();
+		System.out.println(driver.getTitle());	
 
 		// Adding Items to Cart
 		String[] itemsneeded = { "ZARA COAT 3", "ADIDAS ORIGINAL", "IPHONE 13 PRO" };

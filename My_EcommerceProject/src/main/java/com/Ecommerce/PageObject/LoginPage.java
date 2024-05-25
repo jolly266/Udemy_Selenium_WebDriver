@@ -29,95 +29,32 @@ public class LoginPage extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public RegisterPage clickOnSignInBtn() {
-		ActionClass.click(registerBtn);
+	public RegisterPage clickOnRegisterInBtn() {
+		ActionClass.clickOnElement(driver, registerBtn);
 		return new RegisterPage();
 
 	}
 
 	public ForgotPassPage clickOnForgotPassLink() {
-		
-		ActionClass.click(forgotPassLink);
+
+		ActionClass.clickOnElement(driver, forgotPassLink);
 		return new ForgotPassPage();
 	}
-	
-	public HomePage login(String username,String password) {
-	
-		ActionClass.sendkeys(emailTextBox, username);
-		ActionClass.sendkeys(passTextBox, password);
-		ActionClass.click(logInBtn);
-		return new HomePage();
+
+	public String getLoginPageTitle() {
+		String loginPageTitle = driver.getTitle();
+		return loginPageTitle;
+
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	public HomePage login(String user, String pass) {
+
+		ActionClass.sendkeysToTextBox(emailTextBox, user);
+		ActionClass.sendkeysToTextBox(passTextBox, pass);
+		ActionClass.clickOnElement(driver, logInBtn);
+		return new HomePage();
+		
+		
+	}
+
 }

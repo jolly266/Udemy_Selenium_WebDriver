@@ -9,9 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
-import com.Ecommerce.actionDriver.ActionClass;
 
 public class BaseClass {
 
@@ -28,7 +26,11 @@ public class BaseClass {
 		conpro.load(ip);
 	}
 	
-	@Test
+	
+	public static void teardown() {
+		driver.quit();
+	}
+
 	public static void launchapp() throws IOException {
 
 		String browsername = conpro.getProperty("browser");
@@ -49,8 +51,6 @@ public class BaseClass {
 		}
 		
 		driver.get(conpro.getProperty("url"));
-		
-		ActionClass.takescreenshot();
 	}
 }
 
