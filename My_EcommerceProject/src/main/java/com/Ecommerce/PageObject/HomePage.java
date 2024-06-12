@@ -50,6 +50,7 @@ public class HomePage extends BaseClass {
 	}
 
 	public CartPage clickOnCartBtn() {
+		ActionClass.implicitwait(driver, 10);
 		ActionClass.clickOnElement(driver, cartBtn);
 		return new CartPage();
 	}
@@ -83,12 +84,11 @@ public class HomePage extends BaseClass {
 	}
 
 	public void addingItemToCart() {
-
-		String[] itemsneeded = { "ZARA COAT 3" };
+		ActionClass.implicitwait(driver, 10);
+		String[] itemsneeded = { "ZARA COAT 3"};
 		for (int i = 0; i < itemstext.size(); i++) {
 			String name = itemstext.get(i).getText();
 			List<String> itemsNeededList = Arrays.asList(itemsneeded);
-
 			if (itemsNeededList.contains(name)) {
 				addToCartBtn.get(i).click();
 			}

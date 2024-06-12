@@ -12,14 +12,16 @@ public class CartPage extends BaseClass {
 	@FindBy(xpath = "(//button[@class='btn btn-primary'])[1]")
 	WebElement continewShopingBtn;
 
-	@FindBy(xpath = "(//button[@class='btn btn-primary'])[5]")
+	@FindBy(xpath = "(//button[@class='btn btn-primary'])[3]")
 	WebElement checkOutBtn;
 
 	public CartPage() {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void clickOncheckOutBtn() {
+	public PaymentPage clickOncheckOutBtn() {
+		ActionClass.implicitwait(driver, 10);
 		ActionClass.clickOnElement(driver, checkOutBtn);
+		return new PaymentPage() ;
 	}
 }

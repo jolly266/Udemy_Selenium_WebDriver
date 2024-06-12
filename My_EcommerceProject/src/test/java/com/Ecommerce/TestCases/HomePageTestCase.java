@@ -68,9 +68,9 @@ public class HomePageTestCase extends BaseClass {
 	public void addZaraCoatInCart() throws Throwable {
 		LoginPage loginpage = new LoginPage();
 		homepage = loginpage.login(conpro.getProperty("username"), conpro.getProperty("password"));
-		ActionClass.implicitwait(driver, 10);
 		homepage.addingItemToCart();
 		Thread.sleep(2000);
 		cartpage= homepage.clickOnCartBtn();
 	}
+	
 }

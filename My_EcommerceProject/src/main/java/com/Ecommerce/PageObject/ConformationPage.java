@@ -16,8 +16,9 @@ public class ConformationPage extends BaseClass{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public  String validateOrder() {
-		String confirmMsg =ActionClass.getText(null, confirmMsgText);
+	public  String validateOrderConformationMsg() {
+		ActionClass.implicitwait(driver, 10);
+		String confirmMsg =ActionClass.getText(confirmMsgText);
 		return confirmMsg;
 		
 		

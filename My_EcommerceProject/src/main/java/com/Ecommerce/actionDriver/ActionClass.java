@@ -35,7 +35,7 @@ public class ActionClass extends BaseClass {
 		ele.sendKeys(text);
 	}
 	
-	public static  String getText(WebDriver driver,WebElement ele) {
+	public static  String getText(WebElement ele) {
 		return ele.getText();
 		
 	}

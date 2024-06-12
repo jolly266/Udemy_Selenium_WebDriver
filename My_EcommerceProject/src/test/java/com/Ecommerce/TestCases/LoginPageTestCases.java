@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import com.Ecommerce.BaseClass.BaseClass;
 import com.Ecommerce.PageObject.HomePage;
 import com.Ecommerce.PageObject.LoginPage;
-import com.Ecommerce.actionDriver.ActionClass;
 
 
 public class LoginPageTestCases extends BaseClass {
@@ -28,11 +27,12 @@ public class LoginPageTestCases extends BaseClass {
 	}
 
 
-	@Test
-	public void verifyLogin() {
+	@Test(dataProvider = "credentials",dataProviderClass =com.Ecommerce.DataProvider.DataProviders.class )
+	public void verifyLoginTest(String uname, String pswd) throws InterruptedException {
 		LoginPage loginPage= new LoginPage();
-		homepage=loginPage.login(conpro.getProperty("username"),conpro.getProperty("password"));	
-		ActionClass.implicitwait(driver, 0);
+		//homepage=loginPage.login(conpro.getProperty("username"),conpro.getProperty("password"));	
+		homepage=loginPage.login(uname, pswd);
+		Thread.sleep(2000);
 		String actualtitle =homepage.getHomePageTitle();
 		String expectedTitle = "Let's Shop";
 		Assert.assertEquals(actualtitle, expectedTitle);

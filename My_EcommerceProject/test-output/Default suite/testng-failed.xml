@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Ecommerce.TestCases.HomePageTestCase">
+      <class name="com.Ecommerce.TestCases.LoginPageTestCases">
         <methods>
-          <include name="verifyAddidasShoePresent"/>
           <include name="closebrowser"/>
           <include name="loadconfig"/>
           <include name="launchbrowser"/>
+          <include name="verifyLoginTest"/>
         </methods>
-      </class> <!-- com.Ecommerce.TestCases.HomePageTestCase -->
+      </class> <!-- com.Ecommerce.TestCases.LoginPageTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
