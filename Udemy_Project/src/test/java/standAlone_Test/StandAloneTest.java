@@ -46,6 +46,10 @@ public class StandAloneTest {
 		wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
 		driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
 		
+		
+		
+		
+		
 		List<WebElement> cartProducts = driver.findElements(By.cssSelector(".cartSection h3"));
 		Boolean match = cartProducts.stream().anyMatch(cartProduct->cartProduct.getText().equalsIgnoreCase(productname));
 		Assert.assertTrue(match);
