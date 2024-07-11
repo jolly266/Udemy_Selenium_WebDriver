@@ -1,6 +1,5 @@
 package collection_HashMap;
 
-import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Map;
@@ -23,6 +22,7 @@ public class HashTable {
 		Set sn = hm.entrySet();
 		Iterator it = sn.iterator();
 		while (it.hasNext()) {
+			
 			Map.Entry mp = (Map.Entry) it.next();
 			System.out.println(mp.getKey());
 			System.out.println(mp.getValue());

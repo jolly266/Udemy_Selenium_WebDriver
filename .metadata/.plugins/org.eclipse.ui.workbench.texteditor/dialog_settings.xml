@@ -7,6 +7,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="package string;"/>
 			<item value="package com.Ecommerce.BaseClass;"/>
 			<item value="package PageActions;"/>
 			<item value="&#x09; &lt;dependencies&gt;"/>
