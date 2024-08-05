@@ -37,7 +37,6 @@ public class BaseClass {
 		String path = System.getProperty("user.dir") + "/src/main/resources/Globle Properties/GlobleData.properties";
 		FileInputStream fis = new FileInputStream(path);
 		Properties conpro = new Properties();
-		conpro = new Properties();
 		conpro.load(fis);
 		String brw = conpro.getProperty("browser");
 

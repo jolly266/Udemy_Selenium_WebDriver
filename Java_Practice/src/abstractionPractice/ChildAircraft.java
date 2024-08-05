@@ -8,14 +8,17 @@ public class ChildAircraft extends ParentAbstractClass{
 		
 		ca.aircraft_EngineGuideLines();
 		ca.safety_EngineGuideLines();
-		ca.outer_Colour();
+		ca.colour();
 		
 	}
 
 	@Override
-	public void outer_Colour() {
-		System.out.println("Outer Colour is Red");
+	public void colour() {
 		
+		System.out.println("Colour");
 	}
+
+
+	
 
 }

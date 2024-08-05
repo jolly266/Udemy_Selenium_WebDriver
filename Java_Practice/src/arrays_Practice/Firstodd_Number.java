@@ -3,7 +3,7 @@ package arrays_Practice;
 public class Firstodd_Number {
 
 	public static void main(String[] args) {
-
+/*
 		int[] a = { 3,4, 44, 13, 17, 15, 18, 6, 3, 9, 8 };
 
 		for (int i = 0; i < a.length; i++) 
@@ -23,13 +23,15 @@ public class Firstodd_Number {
 		{
 			System.out.print(i+" ");
 		}
-	}
+	}*/
+		
 	//Factorial
-	int d = 5;
-	for(int i=1;i<=d;i++)
+	int d = 1;
+	for(int i=1;i<=17;i++)
 	{
+		d=d*i;
 		
 	}
-	
+	System.out.println(d);
 	}
 }

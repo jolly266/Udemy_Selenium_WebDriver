@@ -34,6 +34,7 @@ public class CheckoutPage extends AbstractComponent{
 	public void selectCountryName(String countryName) {
 		Actions a = new Actions(driver);
 		a.sendKeys(countryTextBox, countryName).build().perform();
+		
 		waitForElementToAppear(result);
 		selectIndia.click();	
 	}

@@ -16,8 +16,6 @@ import testComponents.BaseClass;
 
 public class SubmitOrderTest extends BaseClass {
 
-	
-
 	@Test(dataProvider = "getData",groups = "Purchase")
 	public void submitOrder(HashMap<String, String> input) throws Throwable {
 	
