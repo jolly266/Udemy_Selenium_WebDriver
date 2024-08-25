@@ -26,7 +26,9 @@ public class Arrow_Down {
 		while(i<=4)
 			
 		{
+			//ac.keyDown(Keys.ARROW_DOWN).build().perform();
 			ac.sendKeys(Keys.ARROW_DOWN).build().perform();
+			
 			Thread.sleep(2000);
 			i++;
 		}

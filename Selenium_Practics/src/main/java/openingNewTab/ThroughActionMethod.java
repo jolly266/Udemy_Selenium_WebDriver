@@ -21,8 +21,8 @@ public class ThroughActionMethod {
 		
 		WebElement soapEle = driver.findElement(By.xpath("//div[@id='gf-BIG']/table/tbody/tr/td[1]/ul/li[3]/a"));
 		Actions ac = new Actions(driver);
-		ac.moveToElement(soapEle).click().perform();
-		//ac.moveToElement(soapEle).keyDown(Keys.CONTROL).click().build().perform();	
+		
+		ac.moveToElement(soapEle).keyDown(Keys.CONTROL).click().build().perform();	
 		System.out.println("hhh");
 	}
 
