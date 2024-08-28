@@ -28,7 +28,8 @@ public class Webelement_ScreenShot {
 		
 		System.out.println(boxEle.getRect().getDimension().getHeight());
 		System.out.println(boxEle.getRect().getDimension().getWidth());
-
+		
+		
 	}
 
 }
