@@ -36,7 +36,8 @@ public class Accept_Alerts {
 		Assert.assertEquals(driver.findElement(By.cssSelector("p[id='result']")).getText(), expectedResult);
 		System.out.println(driver.findElement(By.cssSelector("p[id='result']")).getText());
 		
-		driver.quit();
+		
+		//driver.quit();
 
 	}
 

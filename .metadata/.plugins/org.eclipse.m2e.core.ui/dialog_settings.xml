@@ -48,6 +48,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="FrameWork"/>
 			<item value="Selenium_Practics"/>
 			<item value="Udemy_Project"/>
 			<item value="MyStoreProject"/>
@@ -56,6 +57,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="DataDriver"/>
 			<item value="Selenium_Practics"/>
 			<item value="Udemy_Project"/>
 			<item value="MyStoreProject"/>

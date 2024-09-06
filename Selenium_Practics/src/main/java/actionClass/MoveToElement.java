@@ -26,7 +26,7 @@ public class MoveToElement {
 		ac.moveToElement(helloSigninEle).build().perform();
 		
 		Keys enter = Keys.ENTER;
-		ac.moveToElement(searchBoxEle).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().sendKeys(enter).build().perform();
+		ac.moveToElement(searchBoxEle).click().keyDown(Keys.SHIFT).sendKeys("Tshirt").doubleClick().sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(3000);
 		driver.quit();
 	}
