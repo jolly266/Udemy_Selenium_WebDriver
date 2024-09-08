@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Udemy\DataDrivenTesting"/>
 			<item value="E:\Udemy\Maven_Project"/>
 			<item value="E:\Udemy\WebDriver_Practice"/>
 			<item value="E:\Udemy\TestNG"/>
@@ -48,6 +49,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="org.sample"/>
+			<item value="Selenium"/>
 			<item value="FrameWork"/>
 			<item value="Selenium_Practics"/>
 			<item value="Udemy_Project"/>
@@ -57,6 +60,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="jdbc"/>
+			<item value="Selenium_Grid"/>
+			<item value="SeleniumGrid"/>
 			<item value="DataDriver"/>
 			<item value="Selenium_Practics"/>
 			<item value="Udemy_Project"/>

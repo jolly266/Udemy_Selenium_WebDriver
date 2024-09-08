@@ -41,6 +41,7 @@ public class FileDownload {
 		Thread.sleep(2000);
 		File file = new File(downloadPath + "/AutoItPDF.docx");
 		Assert.assertTrue(file.exists());
+		
 		if (file.exists()) {
 			System.out.println("Item Present");
 		}
